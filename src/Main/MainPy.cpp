@@ -156,7 +156,7 @@ PyMOD_INIT_FUNC(FreeCAD)
                 break;
             }
         }  // end for (i = PyList_Size(pySysPath) - 1; i >= 0 ; --i) {
-    }      // end if ( PyList_Check(pySysPath) ) {
+    }  // end if ( PyList_Check(pySysPath) ) {
 
     if (path.isEmpty()) {
         PyErr_SetString(PyExc_ImportError, "Cannot get path of the FreeCAD module!");
